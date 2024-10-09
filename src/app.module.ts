@@ -21,7 +21,7 @@ import path, { join } from 'path';
       host: 'localhost',
       port: 5432,
       username: 'postgres',
-      password: 'vijay',
+      password: 'yourDBPassword',
       database: 'file-uploads',
       entities: [User],
       synchronize: true,
